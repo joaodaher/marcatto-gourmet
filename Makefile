@@ -1,0 +1,1 @@
+gsutil -m cp -r ./public_html/* gs://www.omercattogourmet.com.br
