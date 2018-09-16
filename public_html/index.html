@@ -1,633 +1,697 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
+   <head>
+      <!-- Metas -->
+      <meta charset="utf-8">
+      <title>Mercatto Gourmet</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Css -->
+      <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+      <link href="css/base.css" rel="stylesheet" type="text/css" media="all"/>
+      <link href="css/main.css" rel="stylesheet" type="text/css" media="all"/>
+      <link href="css/flexslider.css" rel="stylesheet" type="text/css"  media="all" />
+      <link href="css/fonts.css" rel="stylesheet" type="text/css"  media="all" />
+	  <link href="https://fonts.googleapis.com/css?family=Kristi" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
 
-    <title>Mercatto Gourmet</title>
-    <!-- GOOGLE FONTS -->
-    <link href='http://fonts.googleapis.com/css?family=Yellowtail%7cCabin:400,500,600,700,400italic,700italic%7cLibre+Baskerville:400italic%7cGreat+Vibes%7cOswald:400,300,700%7cOpen+Sans:600italic,700' rel='stylesheet' type='text/css'>
-
-    <!-- META TAGS -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <meta name="robots" content="index, follow" />
-
-    <!-- CSS STYLESHEETS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
- 	<link rel="stylesheet" href="css/elixir.css" />
-    <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
-    <link href="js/owl-carousel/owl.theme.css" rel="stylesheet">
-    <link href="js/owl-carousel/owl.transitions.css" rel="stylesheet">
-    <link href="css/YTPlayer.css" rel="stylesheet">
- 	<link rel="stylesheet" href="css/swipebox.css">
-  
-
-     
-    <!--[if lt IE 9]>
-        <meta http-equiv="X-UA-Compatible" content="IE=8" />
-        <script src="./js/html5shiv.js"></script>
-        <script src="./js/respond.js"></script>
-    <![endif]-->
-</head>
-<body>
-		
-	<div id="mask">
-            <div class="loader">
-              <img src="svg-loaders/tail-spin.svg" alt='loading'>
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+      <link rel="manifest" href="/site.webmanifest">
+      <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+      <meta name="msapplication-TileColor" content="#da532c">
+      <meta name="theme-color" content="#ffffff">
+	   </head>
+   <body>
+      <!-- Preloader -->
+      <div class="loader">
+         <!-- Preloader inner -->
+         <div class="loader-inner">
+            <svg width="120" height="220" viewbox="0 0 100 100" class="loading-spinner" version="1.1" xmlns="http://www.w3.org/2000/svg">
+               <circle class="spinner" cx="50" cy="50" r="21" fill="#ffffff" stroke-width="2"/>
+            </svg>
+         </div>
+         <!-- End preloader inner -->
+      </div>
+      <!-- End preloader-->
+      <!--Wrapper-->
+      <div class="wrapper">
+         <!--Hero section-->
+         <section class="hero overlay">
+            <!--Main slider-->
+            <div class="main-slider slider flexslider">
+               <ul class="slides">
+                  <li>
+                     <div class="background-img zoom">
+                        <img src="img/banner_03.jpg" alt="">
+                     </div>
+                  </li>
+                  <li>
+                     <div class="background-img zoom">
+                        <img src="img/banner_01.jpg" alt="">
+                     </div>
+                  </li>
+                  <li>
+                     <div class="background-img zoom">
+                        <img src="img/banner_02.jpg" alt="">
+                     </div>
+                  </li>
+                  <li>
+                     <div class="background-img zoom">
+                        <img src="img/banner_04.jpg" alt="">
+                     </div>
+                  </li>
+               </ul>
             </div>
-        </div>
-    	
-        
-        <!-- BEGIN HEADER -->
-        <header id="header" role="banner">
-            <div class="jt_row container">
-                <div class="navbar-header page-scroll">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                    <i class="fa fa-bars"></i>
-                    </button>
-                    <a class="navbar-brand normal logo" href="#home"><div class="logo_elixir"></div></a>
-                    <a class="navbar-brand mini" href="#home"><div class="logo_elixir dark"></div></a>
-                    <a class="navbar-brand mini darker" href="#home"><div class="logo_elixir dark"></div></a>
-                </div>
-
-                <!-- BEGIN NAVIGATION MENU-->
-                <nav class="collapse navbar-collapse navbar-right navbar-main-collapse" role="navigation">
-                    <ul id="nav" class="nav navbar-nav navigation">
-                        <li class="page-scroll menu-item"><a href="#home-slider">Home</a></li>
-                        <li class="page-scroll menu-item"><a href="#about">Sobre</a></li>
-                        <li class="page-scroll menu-item"><a href="menu.html">Menu</a></li>
-                        <li class="page-scroll menu-item"><a href="#gallery">Fotos</a></li>
-                        <li class="page-scroll menu-item"><a href="#reservations">Contato</a></li>
-                        <li class="page-scroll menu-item"><a href="#contact">Onde Estamos</a></li>
-                    </ul>
-                </nav>
-                <!-- EN NAVIGATION MENU -->
+            <!--End main slider-->
+            <!--Header-->
+            <header class="header default">
+               <div class=" left-part">
+                  <a class="logo scroll" href="#hero">
+                     <h2>Mercatto Gourmet</h2>
+                  </a>
+               </div>
+               <div class="right-part">
+                  <nav class="main-nav">
+                     <div class="toggle-mobile-but">
+                        <a href="#" class="mobile-but" >
+                           <div class="lines"></div>
+                        </a>
+                     </div>
+                     <ul>
+                        <li><a class="scroll" href="#wrapper">Home</a></li>
+                        <li><a class="scroll" href="#resto">O Mercatto</a></li>
+                        <li><a class="scroll" href="#menu">Menu Lanchonete</a></li>
+                        <li><a class="scroll" href="#special">Menu Viagem</a></li>
+                        <li><a class="scroll" href="#gallery">Fotos</a></li>
+                        <li><a class="scroll" href="#contact">Contato</a></li>
+                     </ul>
+                  </nav>
+               </div>
+            </header>
+            <!--End header-->
+            <!--Inner hero-->
+            <div class="inner-hero">
+               <!--Container-->
+               <div class="container hero-content">
+                  <!--Row-->
+                  <div class="row">
+                     <div class="col-sm-12 text-center">
+                        <h1 class="large">Mercatto Gourmet</h1>
+                        <p class="lead">um novo conceito em comida</p>
+						
+                     </div>
+                  </div>
+                  <!--End row-->
+               </div>
+               <!--End container-->
             </div>
-        </header>
-        <!-- END HEADER -->
-
-
-
-
-        <!-- BEGIN HOME SLIDER SECTION -->
-        <section id="home-slider">
-            <div class="overlay"></div>
-            <!-- SLIDER IMAGES -->
-            <div id="owl-main" class="owl-carousel">
-                <div class="item"><img src="images/slider/01.jpg" alt="Slide 01"></div>
-                <div class="item"><img src="images/slider/02.jpg" alt="Slide 02"></div>
-                <div class="item"><img src="images/slider/03.jpg" alt="Slide 03"></div>
-            </div>
-            <!-- SLIDER CONTENT -->
-            <div class="slide-content">
-                <div class="voffset100"></div>
-                <span class="logointro"></span>
-                <div id="owl-main-text" class="owl-carousel">
-                    <div class="item">
-                        <h2>The soul food & bistro</h2>
-                    </div>
-                    <div class="item">
-                        <h2>Welcome to restaurant</h2>
-                    </div>
-                    <div class="item">
-                        <h2>Elixir exclusively food</h2>
-                    </div>
-                </div>
-                <div class="slide-sep"></div>
-                <p>The Chef creates divine combinations</p>
-                
-            </div>
-            <!-- BOTTOM ANIMATED ARROW -->
-            <a href="#about" class="page-scroll menu-item"><div class="mouse"><span></span></div></a>
-        </section>
-        <!-- END HOME SLIDER SECTION -->
-
-
-
-
-
-        <!-- BEGIN ABOUT SECTION -->
-        <section id="about" class="section about">
+            <!--End inner hero-->
+         </section>
+         <!--End hero section-->
+         <!--Resto section-->
+         <section id="resto" class="resto pt-120 pb-120">
+            <!--Container-->
             <div class="container">
-                <div class="jt_row jt_row-fluid row">
-                    <div class="col-md-12 jt_col column_container">
-                        <h2 class="section-title">Sobre Nós</h2>
-                    </div> 
-                    <div class="col-md-6 col-md-offset-3 jt_col column_container">    
-                        <div class="section-subtitle">
-                            We love restaurants as much as you do. That’s why we’ve been helping them fill tables since 1999. Welcome to elixir restaurant 
+               <!--Row-->
+               <div class="row">
+                  <div class="col-sm-12 text-center mb-100">
+                     <h1 class="title">O Restaurante</h1>
+                     <p class="beige">Conheça o Mercatto Gourmet</p>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+            <!--Container-->
+            <div class="container">
+               <!--Row-->
+               <div class="row vertical-align">
+                  <div class="col-md-5 col-sm-5 ">
+                     <div class="block-img mb-10">
+                        <div class="background-img">
+                           <img src="img/store_front.jpg" alt="">
                         </div>
-                    </div>
+                     </div>
+                     <div class="block-img ">
+                        <div class="background-img">
+                           <img src="img/staff.jpg" alt="">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1  ">
+                     <div class="block-content">
+                        <h2 class="title-medium mb-10 pb-10">
+                           Bem vindo ao Mercatto Gourmet.
+                           <span class="dots"></span> 
+                        </h2>
+                        <h4 class="title-small">um novo conceito em comida saudável</h4>
+                        <p class="puch-right mb-40">Localizado na região central da cidade de Torrinha, no interior de São Paulo, nasce um espaço gastronômico destinado a alimentação saudável. Seus idealizadores, centrados na visão de equilíbrio, entre corpo, alma e alimentação desenvolvem um ambiente respeitando os paladares mais sofisticados e trazendo o que mais de contemporâneo para seu tempo e povoado.</p>
+                        <p class="puch-right mb-40">O Mercatto além de desenvolver suas atividades de venda alimentícias congeladas feitas de forma artesanal, foca suas atividades numa mini lanchonete onde podemos encontrar alimentos convencionais repaginados de uma forma leve e menos calórica.</p>
+                        <p class="puch-right mb-40">No espaço, você também encontrará bolos, tortas, salgados e doces produzidos artesanalmente respeitando os conceitos de saúde e com isso mantendo a maior necessidade do ser humano que é a alimentação; de forma leve e despreocupada, na certeza que estará se alimentado do que mais saudável existe na atualidade.</p>
+                        <p class="puch-right mb-40">Todos os nossos produtos passam por uma criteriosa banca revisora e após certificação é tirado da nossa mesa para a sua mesa, na certeza que estamos produzindo e vos servindo algo nutritivo, saudável, menos calórico e com um paladar que nos remete aos nossas matriarcas.</p>
+                        <p class="puch-right mb-40">No Mercatto Gourmet, você é levado a degustar não apenas um cafezinho mas, a viajar na história de nossa pequena cidade já que, muito de nossos produtos são produzidos e demudados pelos nossos agricultores. O café que voce encontra na nossa loja é plantado, cultivado e trabalhado pelos homens que movimentam boa parte de nossa economia local.</p>
+                        <p class="puch-right mb-40">Por essa e por outras razões que vocês irão descobrir ao adentrar nosso espaço, é que vos convidamos a visitar nosso Mercatto, localizado na rua Dr. Carlos de Campos, 420, centro de Torrinha.</p>
+                     </div>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+         </section>
+         <!--End resto section-->
+         <!--Short reservation section-->
+         <section class="short-reservation pt-200 pb-250 overlay">
+            <div class="background-img zoom" >
+               <img src="img/banner_02.jpg" alt="">
+            </div>
+            <!--Container-->
+            <div class="container">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-sm-12 text-center front-p">
+                     <h1 class="large">venha nos visitar</h1>
+                     <p class="lead white top">segunda a sábado, 9:00 - 19:00</p>
+                     <p class="lead white top">domingo 10:00 - 21:00</p>
+                     <a href="#contact" class="but scroll">Como Chegar</a>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+         </section>
+         <!--End short reservation section-->
+         <!--Menu section-->
+         <section id="menu" class="menu pt-120 pb-120 ">
+            <!--Container-->
+            <div class="container">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-sm-12  mb-100 text-center">
+                     <h1 class="title"> Menu Lanchonete</h1>
+                     <p class="beige">Desfrute de uma comida saúdavel no local</p>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+            <!--Container-->
+            <div class="container">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-sm-12 ">
+                     <!--Tabs-->
+                     <ul class="block-tabs text-center">
+                        <li class="active">Salgados</li>
+                        <li class="">Bebidas</li>
+                        <li class="">Combos</li>
+                        <li class="">Sobremesas</li>
+                     </ul>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+            <!--Container-->
+            <div class="container">
+               <!--Row-->
+               <div class="row">
+                  <ul class="block-tab mt-40">
+                     <!--Menu list-->
+                     <li class="active block-list">
+                        <div class="col-sm-5  col-sm-offset-1 text-center">
+                           <div class="block-cat">
+                              <h2 class="mb-30">esfirras </h2>
+                           </div>
+                           <div class="block-content pb-25 mb-25">
+                              <h2 class="mb-5 ">Recheio de Frango </h2>
+                              <p>Frango cozido e desfiado.</p>
+                              <span class="block-price">R$5</span>
+                              <span class="dots"></span>
+                           </div>
+                           <div class="block-content  pb-25 mb-25">
+                              <h2 class="mb-5 ">Recheio de Brócolis e Bacon</h2>
+                              <p>Mix de bócolis cozido e bacon frito.</p>
+                              <span class="block-price ">R$5</span>
+                              <span class="dots"></span>
+                           </div>
+                           <div class="block-content">
+                              <h2 class="mb-5 ">Recheio de Ricota </h2>
+                              <p>Ricota fresca e temperada.</p>
+                              <span class="block-price ">R$5</span>
+                           </div>
+                        </div>
+                        <div class="col-sm-5 text-center ">
+                           <div class="block-cat">
+                              <h2 class="mb-30">tranças  </h2>
+                           </div>
+                           <div class="block-content pb-25 mb-25">
+                              <h2 class="mb-5 ">Recheio de Frango </h2>
+                              <p>Frango cozido e desfiado.</p>
+                              <span class="block-price">R$5</span>
+                              <span class="dots"></span>
+                           </div>
+                           <div class="block-content  pb-25 mb-25">
+                              <h2 class="mb-5 ">Recheio de Brócolis e Bacon</h2>
+                              <p>Mix de bócolis cozido e bacon frito.</p>
+                              <span class="block-price ">R$5</span>
+                              <span class="dots"></span>
+                           </div>
+                           <div class="block-content">
+                              <h2 class="mb-5 ">Recheio de Ricota </h2>
+                              <p>Ricota fresca e temperada.</p>
+                              <span class="block-price ">R$5</span>
+                           </div>
+                        </div>
+                     </li>
+                     <!--Menu list-->
+                     <li class=" block-list">
+                        <div class="col-sm-5  col-sm-offset-1 text-center">
+                           <div class="block-cat">
+                              <h2 class="mb-30">suco natural </h2>
+                           </div>
+                           <div class="block-content pb-25 mb-25">
+                              <h2 class="mb-5 ">Copo de Laranja </h2>
+                              <p>300ml de laranja natural feito na hora</p>
+                              <span class="block-price">R$4</span>
+                              <span class="dots"></span>
+                           </div>
+                           <div class="block-content  pb-25 mb-25">
+                              <h2 class="mb-5 ">Jarra laranja </h2>
+                              <p>800ml de laranja natural feito na hora</p>
+                              <span class="block-price">R$8</span>
+                              <span class="dots"></span>
+                           </div>
+                        </div>
+                        <div class="col-sm-5 text-center ">
+                           <div class="block-cat">
+                              <h2 class="mb-30">água </h2>
+                           </div>
+                           <div class="block-content  pb-25 mb-25">
+                              <h2 class="mb-5 ">Água sem gás </h2>
+                              <p>Saudável e refrescante.</p>
+                              <span class="block-price ">R$2</span>
+                              <span class="dots"></span>
+                           </div>
+                           <div class="block-content  pb-25 mb-25">
+                              <h2 class="mb-5 ">Água com gás </h2>
+                              <p>Marca Schin.</p>
+                              <span class="block-price ">R$3</span>
+                              <span class="dots"></span>
+                           </div>
+                        </div>
+                     </li>
+                     <!--Menu list-->
+                     <li class=" block-list">
+                        <div class="col-sm-5  col-sm-offset-1 text-center">
+                           <div class="block-cat">
+                              <h2 class="mb-30">Suco + Salgado </h2>
+                           </div>
+                           <div class="block-content pb-25 mb-25">
+                              <h2 class="mb-5 ">Copo de Suco </h2>
+                              <p>Copo de 300ml acompanhado de um salgado.</p>
+                              <span class="block-price">R$8</span>
+                              <span class="dots"></span>
+                           </div>
+                           <div class="block-content  pb-25 mb-25">
+                              <h2 class="mb-5 ">Jarra de Suco </h2>
+                              <p>Jarra de 800ml acompanhado de um salgado.</p>
+                              <span class="block-price">R$15</span>
+                              <span class="dots"></span>
+                           </div>
+                        </div>
+                     </li>
+                     <!--Menu list-->
+                     <li class="block-list">
+                        <div class="col-sm-5  col-sm-offset-1 text-center">
+                           <div class="block-cat">
+                              <h2 class="mb-30">cookies </h2>
+                           </div>
+                           <div class="block-content pb-25 mb-25">
+                              <h2 class="mb-5 ">Sabores variados </h2>
+                              <!--<p>Strawberries, Orange and Pineapple Juices, Coconut and Banana.</p>-->
+                              <span class="block-price">R$3</span>
+                              <span class="dots"></span>
+                           </div>
+                        </div>
+                        <div class="col-sm-5 text-center ">
+                           <div class="block-cat">
+                              <h2 class="mb-30">barra de ceral  </h2>
+                           </div>
+                           <div class="block-content  pb-25 mb-25">
+                              <h2 class="mb-5 ">Sabores variados </h2>
+                              <!--<p>Double Espresso, Extra Steamed Milk.</p>-->
+                              <span class="block-price ">R$2,50</span>
+                              <span class="dots"></span>
+                           </div>
+                        </div>
+                     </li>
+                  </ul>
+                  <!--End tabs-->
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+         </section>
+         <!--End menu section-->
+         <!--Review section-->
+         <!--<section class="review pt-120 pb-120 overlay">-->
+            <!--<div class="background-img zoom" >-->
+               <!--<img src="img/6.jpg" alt="">-->
+            <!--</div>-->
+            <!--&lt;!&ndash;Container&ndash;&gt;-->
+            <!--<div class="container">-->
+               <!--&lt;!&ndash;Row&ndash;&gt;-->
+               <!--<div class="row">-->
+                  <!--<div class="col-sm-12 text-center front-p">-->
+                     <!--<div class="review-slider flexslider">-->
+                        <!--<ul class="slides">-->
+                           <!--<li>-->
+                              <!--<div class="block-review">-->
+                                 <!--<h2 class="white h2-s-1 mb-5">Joselaine</h2>-->
+                                 <!--<p>Adoramos o bolo de cenoura com cacau. </p>-->
+                                 <!--<ul class="block-star mt-10">-->
+                                    <!--<li><i class="icon-star"></i></li>-->
+                                    <!--<li><i class="icon-star"></i></li>-->
+                                    <!--<li><i class="icon-star"></i></li>-->
+                                    <!--<li><i class="icon-star"></i></li>-->
+                                    <!--<li><i class="icon-star-empty"></i></li>-->
+                                 <!--</ul>-->
+                              <!--</div>-->
+                           <!--</li>-->
+                           <!--<li>-->
+                              <!--<div class="block-review">-->
+                                 <!--<h2 class="white h2-s-1 mb-5">The telegraph</h2>-->
+                                 <!--<p>The food is plentiful and delicious, it is all part of the "old world" sort of dining experience. </p>-->
+                                 <!--<ul class="block-star mt-10">-->
+                                    <!--<li><i class="icon-star"></i></li>-->
+                                    <!--<li><i class="icon-star"></i></li>-->
+                                    <!--<li><i class="icon-star"></i></li>-->
+                                    <!--<li><i class="icon-star-empty"></i></li>-->
+                                    <!--<li><i class="icon-star-empty"></i></li>-->
+                                 <!--</ul>-->
+                              <!--</div>-->
+                           <!--</li>-->
+                           <!--<li>-->
+                              <!--<div class="block-review">-->
+                                 <!--<h2 class="white h2-s-1 mb-5">Magazin restaurant</h2>-->
+                                 <!--<p>Huge portions, great food, fast service. This location obviously is always packed due to being in Times Sq. </p>-->
+                                 <!--<ul class="block-star mt-10">-->
+                                    <!--<li><i class="icon-star"></i></li>-->
+                                    <!--<li><i class="icon-star"></i></li>-->
+                                    <!--<li><i class="icon-star"></i></li>-->
+                                    <!--<li><i class="icon-star"></i></li>-->
+                                    <!--<li><i class="icon-star-half"></i></li>-->
+                                 <!--</ul>-->
+                              <!--</div>-->
+                           <!--</li>-->
+                        <!--</ul>-->
+                     <!--</div>-->
+                  <!--</div>-->
+               <!--</div>-->
+               <!--&lt;!&ndash;End row&ndash;&gt;-->
+            <!--</div>-->
+            <!--&lt;!&ndash;End container&ndash;&gt;-->
+         <!--</section>-->
+         <!--End reviews section-->
+         <!--Special section-->
+         <section  id="special" class="special pt-120 pb-120">
+            <!--Container-->
+            <div class="container">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-sm-12 text-center mb-100">
+                     <h1 class="title">Menu para Viagem</h1>
+                     <p class="beige">Experimente na sua casa, a qualquer hora</p>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+            <!--Container-->
+            <div class=" container">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-md-4  pd-0 block-special">
+                     <div class="block-img special">
+                        <div class="background-img">
+                           <img src="img/quiche.jpg" alt="">
+                        </div>
+                     </div>
+                     <div class="block-content special sp-3">
+                        <h2 class="mb-5  h2-s-1">Quiche  </h2>
+                        <p>Palmito. </p>
+                        <p>Alho Poró. </p>
+                        <span class="block-price special">R$5</span>
+                        <span class="block-border "></span>
+                     </div>
+                  </div>
+                  <div class="col-md-4  pd-0 block-special active ">
+                     <div class="block-img special">
+                        <div class="background-img">
+                           <img src="img/mini_pizza.jpg" alt="">
+                        </div>
+                     </div>
+                     <div class="block-content special sp-2">
+                        <h2 class="mb-5  h2-s-1">Massa Mini Pizza  </h2>
+                        <p>4 unidades. </p>
+                        <span class="block-price special">R$8</span>
+                     </div>
+                  </div>
+                  <div class="col-md-4  pd-0 block-special">
+                     <div class="block-img special">
+                        <div class="background-img">
+                           <img src="img/pacakes.jpg" alt="">
+                        </div>
+                     </div>
+                     <div class="block-content special sp-3">
+                        <h2 class="mb-5  h2-s-1">Panqueca  </h2>
+                        <p>Carne. </p>
+                        <p>Frango. </p>
+                        <span class="block-price special">R$10</span>
+                     </div>
+                  </div>
+
+                  <div class="col-md-4  pd-0 block-special">
+                     <div class="block-img special">
+                        <div class="background-img">
+                           <img src="img/gnocchi.jpg" alt="">
+                        </div>
+                     </div>
+                     <div class="block-content special sp-3">
+                        <h2 class="mb-5  h2-s-1">Nhoque  </h2>
+                        <p>Batata Doce. </p>
+                        <span class="block-price special">R$10</span>
+                     </div>
+                  </div>
+                  <div class="col-md-4  pd-0 block-special active ">
+                     <div class="block-img special">
+                        <div class="background-img">
+                           <img src="img/brown_rice.jpg" alt="">
+                        </div>
+                     </div>
+                     <div class="block-content special sp-2">
+                        <h2 class="mb-5  h2-s-1">Arroz Integral  </h2>
+                        <p>Brócolis, carne e legumes. </p>
+                        <span class="block-price special">R$10</span>
+                     </div>
+                  </div>
+                  <div class="col-md-4  pd-0 block-special">
+                     <div class="block-img special">
+                        <div class="background-img">
+                           <img src="img/sweet_potato.jpg" alt="">
+                        </div>
+                     </div>
+                     <div class="block-content special sp-3">
+                        <h2 class="mb-5  h2-s-1">Batata Doce  </h2>
+                        <p>Com Carne. </p>
+                        <p>Com Frango. </p>
+                        <span class="block-price special">R$10</span>
+                     </div>
+                  </div>
+
+                  <div class="col-md-4  pd-0 block-special">
+                     <div class="block-img special">
+                        <div class="background-img">
+                           <img src="img/manioc.jpg" alt="">
+                        </div>
+                     </div>
+                     <div class="block-content special sp-3">
+                        <h2 class="mb-5  h2-s-1">Mandioca  </h2>
+                        <p>Com Carne. </p>
+                        <p>Com Carne Seca. </p>
+                        <span class="block-price special">R$10 - R$12</span>
+                     </div>
+                  </div>
+                  <div class="col-md-4  pd-0 block-special active ">
+                     <div class="block-img special">
+                        <div class="background-img">
+                           <img src="img/lasagna.jpg" alt="">
+                        </div>
+                     </div>
+                     <div class="block-content special sp-2">
+                        <h2 class="mb-5  h2-s-1">Lasanha  </h2>
+                        <p>De Cupim. </p>
+                        <p>De Abobrinha. </p>
+                        <p>De Berinjela. </p>
+                        <span class="block-price special">R$12 - R$19</span>
+                     </div>
+                  </div>
+                  <div class="col-md-4  pd-0 block-special">
+                     <div class="block-img special">
+                        <div class="background-img">
+                           <img src="img/shepperd_pie.jpg" alt="">
+                        </div>
+                     </div>
+                     <div class="block-content special sp-3">
+                        <h2 class="mb-5  h2-s-1">Escondidinho Low Carb  </h2>
+                        <p>Frango com cabotiá. </p>
+                        <p>Carne seca com purê de banana. </p>
+                        <span class="block-price special">R$16</span>
+                     </div>
+                  </div>
+
+                  <div class="col-md-4  pd-0 block-special">
+                     <div class="block-img special">
+                        <div class="background-img">
+                           <img src="img/pie.jpg" alt="">
+                        </div>
+                     </div>
+                     <div class="block-content special sp-3">
+                        <h2 class="mb-5  h2-s-1">Torta  </h2>
+                        <p>Abobrinha com Palmito. </p>
+                        <p>Frango com Brócolis. </p>
+                        <span class="block-price special">R$18</span>
+                     </div>
+                  </div>
+                  <div class="col-md-4  pd-0 block-special active ">
+                     <div class="block-img special">
+                        <div class="background-img">
+                           <img src="img/medallion.jpg" alt="">
+                        </div>
+                     </div>
+                     <div class="block-content special sp-2">
+                        <h2 class="mb-5  h2-s-1">Medalhão  </h2>
+                        <p>Com gorgonzola. </p>
+                        <span class="block-price special">R$19</span>
+                     </div>
+                  </div>
+                  <div class="col-md-4  pd-0 block-special">
+                     <div class="block-img special">
+                        <div class="background-img">
+                           <img src="img/cake.jpg" alt="">
+                        </div>
+                     </div>
+                     <div class="block-content special sp-3">
+                        <h2 class="mb-5  h2-s-1">Bolo  </h2>
+                        <p>Chocolate com cacau. </p>
+                        <p>Cenoura com cacau. </p>
+                        <p>Banana com aveia. </p>
+                        <p>Fruta com nozes. </p>
+                        <span class="block-price special">R$15 - R$18</span>
+                     </div>
+                  </div>
+               </div>
 
 
-                    <div class="col-md-6 jt_col column_container">
-                        <h2 class="heading font-smoothing">The History</h2>
-                        <p class="text">
-                            The <strong>History of Kitchens</strong> and Cooks gives further intimation on Mr Boulanger 
-                            usual menu, stating confidently that "Boulanger served salted poultry and 
-                            fresh eggs, all presented without a tablecloth on small marble tables". 
-                            Numerous commentators have also referred to the supposed restaurant 
-                            owner's eccentric habit of touting for custom outside his establishment, 
-                            dressed in aristocratic fashion and brandishing a sword
+               <!--End row-->
+            </div>
+            <!--End container-->
+         </section>
+         <!--End special section-->
+         <!--Gallery section-->
+         <section id="gallery" class="gallery overlay">
+            <!-- As a general rule, include a heading (h1-h6) as a child of each section and article element for screen readers purposes-->
+            <h2 class="indent">Gallery</h2>
+            <!--Gallery slider-->
+            <div class="gallery-slider slider flexslider">
+               <ul class="slides">
+                  <li>
+                     <div class="background-img zoom">
+                        <img src="img/prod_cake_02.jpg" alt="">
+                     </div>
+                  </li>
+                  <li>
+                     <div class="background-img zoom">
+                        <img src="img/prod_coffee.jpg" alt="">
+                     </div>
+                  </li>
+                  <li>
+                     <div class="background-img zoom">
+                        <img src="img/prod_cake.jpg" alt="">
+                     </div>
+                  </li>
+                  <li>
+                     <div class="background-img zoom">
+                        <img src="img/bags.jpg" alt="">
+                     </div>
+                  </li>
+                  <li>
+                     <div class="background-img zoom">
+                        <img src="img/prod_quiche.jpg" alt="">
+                     </div>
+                  </li>
+               </ul>
+            </div>
+            <!--End gallery slider-->
+         </section>
+         <!--End gallery section-->
+         <!--Contact section-->
+         <section id="contact" class="contact pt-250 pb-250">
+            <!-- As a general rule, include a heading (h1-h6) as a child of each section and article element for screen readers purposes-->
+            <h2 class="indent">Como nos Encontrar</h2>
+            <div class="block-map ">
+               <div id="map" class="map"></div>
+            </div>
+            <!--Container-->
+            <div class="container block-contact">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-md-5 col-md-offset-7 col-sm-5 col-sm-offset-7">
+                     <ul class="block-social mb-30">
+                        <li><a href="https://www.facebook.com/omercattogourmet/" target="_blank"><i class="icon-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/omercattogourmet/" target="_blank"><i class="icon-instagram"></i></a></li>
+                     </ul>
+                     <div class="block-info mb-30">
+                        <p>
+                           <strong>Segunda a Sábado 9:00 - 19:00</strong><br>
+                           <strong>Domingo 10:00 - 21:00</strong><br>
+                           Venha conhecer nosso estabelecimento e experimentar nossa gastronomia exclusiva e saudável
+                           <br><br>
+                           Rua Dr. Carlos de Campos, 420<br>
+                           Centro, Torrinha/SP<br><br>
+                           Telefone: (14) 3656-3500 <br>
+                           Email : <span><a href="https://m.me/omercattogourmet" target="_blank">contato@omercattogourmet.com.br</a></span>
                         </p>
-                        <p class="text">
-                            According to Miss Spang, there is not a shred of evidence for any of it. 
-                            She said: These legends just get passed on by hearsay and then spiral 
-                            out of control. Her interest in <strong>Boulanger</strong> dates back to a history of 
-                            food seminar in Paris in the mid-1990s
-                        </p>
-                        
-                        <div class="ornament"></div>
-                    </div>  
-
-                    <div class="col-md-6 jt_col column_container">
-                        <div id="owl-about" class="owl-carousel">
-                                <div class="item"><img src="images/about01.jpg" alt=""></div>
-                                <div class="item"><img src="images/about02.jpg" alt=""></div>
-                                <div class="item"><img src="images/about03.jpg" alt=""></div>
-                        </div>
-                    </div> 
-                </div>
-                <div class="jt_row jt_row-fluid row">
-                    <div class="col-md-6 jt_col column_container">
-                        <div class="voffset10"></div>
-                        <div id="owl-about2" class="owl-carousel">
-                                <div class="item"><img src="images/about04.jpg" alt=""></div>
-                                <div class="item"><img src="images/about05.jpg" alt=""></div>
-                                <div class="item"><img src="images/about06.jpg" alt=""></div>
-                        </div>
-                    </div>  
-
-
-
-                    <div class="col-md-6 jt_col column_container">
-
-                        <p class="text">
-                            The <strong>History of Kitchens</strong> and Cooks gives further intimation on Mr Boulanger 
-                            usual menu, stating confidently that "Boulanger served salted poultry and 
-                            fresh eggs, all presented without a tablecloth on small marble tables". 
-                            Numerous commentators have also referred to the supposed restaurant 
-                            owner's eccentric habit of touting for custom outside his establishment, 
-                            dressed in aristocratic fashion and brandishing a sword
-                        </p>
-                        <p class="text">
-                            According to Miss Spang, there is not a shred of evidence for any of it. 
-                            She said: These legends just get passed on by hearsay and then spiral 
-                            out of control. Her interest in <strong>Boulanger</strong> dates back to a history of 
-                            food seminar in Paris in the mid-1990s
-                        </p>
-                    </div> 
-                </div>
-
+                     </div>
+                  </div>
+                  <!--<div class="col-md-5 col-md-offset-7 col-sm-5 col-sm-offset-7">-->
+                     <!--<footer class="footer-short mt-40">-->
+                        <!--<p>	&copy; 2018 all rights reserved - a product of mutationthemes.</p>-->
+                     <!--</footer>-->
+                  <!--</div>-->
+               </div>
+               <!--End row-->
             </div>
-            
-        </section>
-        <!-- END ABOUT SECTION -->
-
-
-
-
-        <!-- BEGIN TIMETABLE SECTION -->
-        <section id="timetable" class="section timetable parallax">
-            <div class="container">
-                    <div class="jt_row jt_row-fluid row">
-                    	<span class="column-divider"></span>
-                        <div class="col-md-12 jt_col column_container">
-                            <h2 class="section-title"><span class="timetable-decorator"></span><span class="opening-hours">Opening Hours</span><span class="timetable-decorator2"></span></h2>
-                        </div> 
-                        <div class="col-md-12 jt_col column_container">    
-                            <div class="section-subtitle">
-                                Call For Reservations
-                            </div>
-                        </div>
-                        
-                        <div class="col-md-3 col-md-offset-3 jt_col column_container">    
-                            <div class="section-subtitle days">
-                                Sunday to Tuesday
-                            </div>
-                            <div class="section-subtitle hours">
-                                09:00<br>24:00
-                            </div>
-                        </div>
-
-                        
-                        <div class="col-md-3 jt_col column_container">    
-                            <div class="section-subtitle days">
-                                Friday and Saturday
-                            </div>
-                            <div class="section-subtitle hours">
-                                08:00<br>03:00
-                            </div>
-                        </div>
-                        <div class="col-md-12 jt_col column_container">    
-                            <div class="number">
-                                RESERVATION NUMBER: 0842-5484214
-                            </div>
-                        </div>
-
-                    </div>
-            </div>
-        </section>
-        <!-- END TIMETABLE SECTION -->
-
-
-
-
-        <!-- BEGIN MENU SECTION -->
-        <section id="menu" class="section menu">
-
-            <div class="container">
-                    <div class="jt_row jt_row-fluid row">
-                        <div class="col-md-12 jt_col column_container">
-                         <div class="voffset100"></div>
-                            <img class="center menu-logo" src="images/menu_logo.png" alt="Menu Logo">
-                            <div class="voffset100"></div>
-                        </div>
-                        
-                        <div class="col-md-4 jt_col column_container">    
-                            <h3>Prime Steaks</h3>
-                            <ul>
-                                <li>
-                                    Filet
-                                    <div class="detail">7 oz. Center Cut10 oz. Double cut<span class="price">$14.49</span></div>
-                                </li>
-                                <li>
-                                    Boine in filet
-                                    <div class="detail">10 oz Greg Norman Ranch, Australia<span class="price">$20.50</span></div>
-                                </li>
-                                <li>
-                                    New York Strip
-                                    <div class="detail">9 oz. Center Cut12 oz. Double cut  oz <span class="price">$9.99</span></div>
-                                </li>
-                                <li>
-                                    Porterhouse
-                                    <div class="detail">7 oz. Center Cut10 oz. Double cut<span class="price">$7.99</span></div>
-                                </li>
-                                <li>
-                                    Delmonico
-                                    <div class="detail">10 oz Greg Norman Ranch, Australia<span class="price">$17.99</span></div>
-                                </li>
-                            </ul>
-                        </div>
-                      
-                        <div class="col-md-4 jt_col column_container">    
-                            <h3>Drinks & Wines</h3>
-                            <ul>
-                                <li>Raimat Abadia
-                                    <div class="detail">Complex, Dark Cherry, Spice, bodied<span class="price">$8.50</span></div>
-                                </li>
-                                <li>Eden Chardonnay
-                                    <div class="detail">Elegant, Lemon, Vanilla, bodied<span class="price">$15.50</span></div>
-                                </li>
-                                <li>Mailly Brut Reserva
-                                    <div class="detail">Dry, Toast, Citrus, Medium-bodied <span class="price">$17.50</span></div>
-                                </li>
-                                <li>Leon V de Armenia
-                                    <div class="detail">Crisp, Citrus, Full-bodied<span class="price">$12.50</span></div>
-                                </li>
-                                <li>Caberenet Sauvignon
-                                    <div class="detail">Intense, Cherry, Chocolate, Full-bodied<span class="price">$30.50</span></div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-4 jt_col column_container">    
-                            <h3>Desserts</h3>
-                            <ul>
-                                <li>
-                                    Creme Brulee
-                                    <div class="detail">Creme Anglaise, Vanilla Bean Ice Cream <span class="price">$7.49</span></div>
-                                </li>
-                                <li>
-                                    Warm chocolate
-                                    <div class="detail">Amarena Cherries, Kirsch Cream<span class="price">$6.50</span></div>
-                                </li>
-                                <li>
-                                    Cheese cake
-                                    <div class="detail">Cheese creme, ice cream, strawberry <span class="price">$4.50</span></div>
-                                </li>
-                                <li>
-                                    Apple Turnover
-                                    <div class="detail">Creme Anglaise, Vanilla Bean Ice Cream<span class="price">$7.99</span></div>
-                                </li>
-                                <li>
-                                    Sorbet with fruit
-                                    <div class="detail">Lemon, organge, strawberry or mango<span class="price">$8.50</span></div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-md-4 col-md-offset-4 jt_col column_container">    
-                            <a href="menu.html" class="button menu center">View Complete Menu</a>
-                        </div>
-                        
-                    </div>
-            </div>
-            <div class="voffset30"></div>
-        </section>
-        <!-- END MENU SECTION -->
-
-
-
-
-        <!-- BEGIN GALLERY SECTION -->
-        <section id="gallery" class="section gallery dark">
-                <div class="jt_row jt_row-fluid row">
-                    <div class="col-md-12 jt_col column_container">
-                            <h2 class="section-title">Gallery</h2>
-                            <div class="col-md-6 col-md-offset-3 jt_col column_container">    
-                                <div class="section-subtitle">
-                                    If a picture says a thousand words, then you can imagine how long it would take to describe all our mouthwatering selections. 
-                                </div>
-                    </div>
-                            
-                    </div> 
-
-                    <div class="col-md-12 jt_col column_container">
-
-                        <nav class="primary">
-                            <ul>
-                                <li><a href="#" data-filter="*" class="selected"><span>All Photos</span></a></li>
-                                <li><a href="#" data-filter=".food"><span>Food</span></a></li>
-                                <li><a href="#" data-filter=".restaurant"><span>Restaurant</span></a></li>
-                                <li><a href="#" data-filter=".dessert"><span>Desserts</span></a></li>
-                            </ul>
-                        </nav>
-
-                        <div class="portfolio">
-         
-                            <article class="entry food">
-                                <a class="swipebox" href="images/gallery/01.jpg">
-                                <img src="images/gallery/01.jpg" class="img-responsive" alt=""/>
-                                <span class="magnifier"></span>
-                                </a>
-                            </article>
-                     
-                            <article class="entry restaurant">
-                                <a class="swipebox" href="images/gallery/02.jpg">
-                                <img src="images/gallery/02.jpg" class="img-responsive" alt=""/>
-                                <span class="magnifier"></span>
-                                </a>
-                            </article>
-                     
-                            <article class="entry restaurant">
-                                <a class="swipebox" href="images/gallery/03.jpg">
-                                <img src="images/gallery/03.jpg" class="img-responsive" alt=""/>
-                                <span class="magnifier"></span>
-                                </a>
-                            </article>
-                     
-                            <article class="entry dessert">
-                                <a class="swipebox" href="images/gallery/04.jpg">
-                                <img src="images/gallery/04.jpg" class="img-responsive" alt=""/>
-                                <span class="magnifier"></span>
-                                </a>
-                            </article>
-                     
-                            <article class="entry food restaurant">
-                                <a class="swipebox" href="images/gallery/05.jpg">
-                                <img src="images/gallery/05.jpg" class="img-responsive" alt=""/>
-                                <span class="magnifier"></span>
-                                </a>
-                            </article>
-                     
-                            <article class="entry restaurant dessert">
-                                <a class="swipebox" href="images/gallery/06.jpg">
-                                <img src="images/gallery/06.jpg" class="img-responsive" alt=""/>
-                                <span class="magnifier"></span>
-                                </a>
-                            </article>
-                     
-                            <article class="entry food dessert">
-                                <a class="swipebox" href="images/gallery/07.jpg">
-                                <img src="images/gallery/07.jpg" class="img-responsive" alt=""/>
-                                <span class="magnifier"></span>
-                                </a>
-                            </article>
-                     
-                            <article class="entry food restaurant dessert">
-                                <a class="swipebox" href="images/gallery/08.jpg">
-                                <img src="images/gallery/08.jpg" class="img-responsive" alt=""/>
-                                <span class="magnifier"></span>
-                                </a>
-                            </article> 
-                                
-                            <article class="entry dessert">
-                                <a class="swipebox" href="images/gallery/09.jpg">
-                                <img src="images/gallery/09.jpg" class="img-responsive" alt=""/>
-                                <span class="magnifier"></span>
-                                </a>
-                            </article>
-                     
-                     
-                        </div>
-                    </div> <!-- End .jt_col -->
-                </div> <!-- End .jt_row -->
-                <div class="voffset200"></div>
-        </section>
-        <!-- END GALLERY SECTION -->
-
-
-
-
-        <!-- BEGIN RESERVATIONS SECTION -->
-        <section id="reservations" class="section reservations">
-            <div class="container">
-                    <div class="jt_row jt_row-fluid row">
-                        <div class="col-md-12 jt_col column_container">
-                            <h2 class="section-title">Reservations</h2>
-                        </div> 
-                        <div class="col-md-6 col-md-offset-3 jt_col column_container">    
-                            <div class="section-subtitle">
-                                Booking a table has never been so easy with free & instant online restaurant reservations, booking now!!
-                            </div>
-                        </div>
-                        <div class="col-md-12 jt_col column_container">
-                        <div class="reservations_logo"></div>
-                        <div class="voffset40"></div>
-
-                            <h4><span class="above">Welcome to Elixir</span></h4>
-                            <h3>Make a Reservation</h3>
-                            <h4><span>Open Hours</span></h4>
-                            <div class="voffset50"></div>
-                            <p><strong>Sunday to Tuesday</strong> 09.00 - 24:00 <strong>Friday and Sunday</strong> 08:00 - 03.00</p>
-                            <h3 class="reservation-phone">+1-506-890-0179</h3>
-                        </div> 
-
-                        <form action="reservations.php" method="post" id="reservationform" class="contact-form">
-                            <div class="col-md-5 col-md-offset-1 jt_col column_container">    
-                                <p>Book a table</p>
-                                <input type="text" id="date" name="date" placeholder="Date" class="text date required" >
-                                <input type="text" id="time" name="time" placeholder="Time" class="text time required" >
-                                <input type="text" id="party" name="party" placeholder="Party" class="text party required" >
-                            </div>
-
-                            <div class="col-md-5 jt_col column_container">    
-                                <p>Contact Details</p>
-                                <input type="text" id="reservation_name" name="reservation_name" placeholder="Name" class="text reservation_name required" >
-                                <input type="email" id="reservation_email" name="reservation_email" class="tex email required" placeholder="Email" >
-                                <input type="text" id="reservation_phone" name="reservation_phone" placeholder="Phone" class="text reservation_phone required">
-                            </div>
-
-                            <div class="col-md-10 col-md-offset-1 jt_col column_container">    
-                                <textarea id="reservation_message" name="reservation_message" class="text area required" placeholder="Message" rows="6"></textarea>
-                            </div>
-                            <div class="col-md-4 col-md-offset-4 jt_col column_container"> 
-                            <div class="formSent"><strong>Your Message Has Been Sent!</strong> Thank you for contacting us.</div>    
-                                <input type="submit" class="button center" value="Make reservation" >
-                            </div>
-
-
-                            
-                        </form>
-                        <div class="col-md-12 jt_col column_container">
-                        <div class="voffset60"></div>
-                            <div class="ornament"></div>
-                        </div>
-                    </div>
-                    
-            </div>
-        </section>
-        <!-- END RESERVATIONS SECTION-->
-
-
-
-
-        <!-- BEGIN TESTIMONIALS SECTION -->
-        <section id="testimonials" class="section testimonials parallax voffset100 clearfix">
-
-            <div class="container">
-                <div class="jt_row jt_row-fluid row">
-                    <div class="voffset20"></div>
-                    <div class="col-md-12 jt_col column_container">
-                    <div class="testimonials_img"></div>
-                        <h2>Testimonials<span>”</span></h2>
-                    </div>
-                
-
-                    <div class="col-md-12 jt_col column_container">
-                        <div class="testimonials carousel-wrapper with_pagination">
-                            <div class="owl-carousel generic-carousel">
-                                <div class="item">
-                                    <p>Applicake chocolate cake wafer toffee pie soufflé wafer. Tart marshmallow wafer macaroon cheesecake jelly. Gingerbread cookie soufflé sweet roll sweet roll jelly-o.</p>
-                                    <span class="author">Alexander Smith</span>
-                                </div>
-                                <div class="item">
-                                    <p>"Awesome to work with. Incredibly organized, easy to communicate with, responsive with next iterations, and beautiful work. It’s great to work with someone so open-minded and responsive. Thank you!"</p>
-                                    <span class="author">John Berthier</span>
-                                </div>
-                                <div class="item">
-                                    <p>“Your designs were exactly what Josef had always imagined — clear, clean, continuous, with a focus on stylistic elements. It was a major help for us. Thank you so much for your work on this project."</p>
-                                    <span class="author">Carolyn Meyer</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="voffset80"></div>
-                    </div>
-                </div>
-            </div> <!-- End .container -->
-        </section>
-        <!-- END TESTIMONIALS SECTION -->
-
-
-
-
-        <!-- BEGIN CONTACT SECTION -->
-        <section id="contact" class="section contact dark">
-            <div class="container">
-                <div class="jt_row jt_row-fluid row">
-
-                    <div class="col-md-12 jt_col column_container">
-                        <h2 class="section-title">Contact</h2>
-                    </div>
-                    <div class="col-md-6 col-md-offset-3 jt_col column_container">
-                        <div class="section-subtitle">
-                            W325 State Road 123 Mondovi, WI  (Wisconsin)   98746-54321
-                        </div>
-                    </div>
-                        <form action="mail.php" method="post" id="contactform" class="contact-form">
-                                <div class="col-md-6 jt_col column_container">    
-                                    <input type="text" id="name" name="name" class="text name required" placeholder="Name" >
-                                    <input type="email" id="email" name="email" class="tex email required" placeholder="Email" >
-                                    <input type="text" id="subject" name="subject" placeholder="Subject" >
-                                </div>
-
-                                <div class="col-md-6 jt_col column_container">    
-                                     <textarea id="message" name="message" class="text area required" placeholder="Message" rows="10"></textarea>
-                                </div>
-
-                                <div class="col-md-4 col-md-offset-4 jt_col column_container"> 
-                                <div class="formSent"><strong>Your Message Has Been Sent!</strong> Thank you for contacting us.</div>    
-                                <input type="submit" class="button contact center" value="Submit" >
-                                </div>
-                                
-                            </form>
-                    <div class="voffset100"></div>
-                </div>
-                    <div class="voffset50"></div>
-            </div>
-            
-        </section>
-        <!-- END CONTACT SECTION -->
-
-
-
-
-
-        <!-- BEGIN MAP SECTION -->
-        <section id="maps">
-            <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-            <div class="map-content">
-                <div class="wpgmappity_container inner-map" id="wpgmappitymap"></div>
-            </div>
-        </section>
-        <!-- END MAP SECTION -->
-
-
-    
-
-        <!-- BEGIN FOOTER -->
-        <footer id="footer" class="section" role="contentinfo">
-            <div class="container">
-                <ul class="social">
-                    <li><a href="http://facebook.com/omercattorgourmet" class="icon fb"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="http://instagram.com/omercattogourmet" class="icon in"><i class="fa fa-instagram"></i></a></li>
-                </ul>
-            </div>
-        </footer>
-        <!-- END FOOTER -->
-    <a href="#0" class="cd-top">Top</a>
-    <!-- BEGIN Scripts-->
-
-    <script src="js/modernizr.custom.js"></script>
-    <script src="js/jquery.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/pathLoader.js"></script>
-    <script src="js/owl-carousel/owl.carousel.min.js"></script>
-    <script src="js/jquery.inview.js"></script>
-    <script src="js/jquery.nav.js"></script>
-    <script src="js/jquery.mb.YTPlayer.js"></script>
-    <script src="js/jquery.form.js"></script>
-    <script src="js/jquery.validate.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/default.js"></script>
-    <script src="js/plugins.js"></script>
-    <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
-    <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/jquery.swipebox.js"></script>
-
-    <script type="text/javascript">
-    ;( function( $ ) {
-
-        $( '.swipebox' ).swipebox();
-
-    } )( jQuery );
-    </script>
-
-
-    
-    <!-- END Scripts -->
-
-    
-</body>
+            <!--End container-->
+         </section>
+         <!--End contact section-->
+      </div>
+      <!-- End wrapper-->
+      <!--Javascript-->	
+      <script src="js/jquery-1.12.4.min.js" type="text/javascript"></script>
+      <script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+      <script src="js/smooth-scroll.js" type="text/javascript"></script>
+	  <script src="js/jquery.validate.min.js" type="text/javascript"></script>
+	  <script src="js/placeholders.min.js" type="text/javascript"></script>
+      <script src="js/script.js" type="text/javascript"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkep1vhRKeMP_HDQMnU1IQA9kWKyMgIMY&callback=initializeMap"></script>
+      <!-- Google analytics -->
+      <!-- End google analytics -->
+   </body>
 </html>
+
