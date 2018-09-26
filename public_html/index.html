@@ -1,148 +1,697 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
+   <head>
+      <!-- Metas -->
+      <meta charset="utf-8">
+      <title>Mercatto Gourmet</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- Css -->
+      <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+      <link href="css/base.css" rel="stylesheet" type="text/css" media="all"/>
+      <link href="css/main.css" rel="stylesheet" type="text/css" media="all"/>
+      <link href="css/flexslider.css" rel="stylesheet" type="text/css"  media="all" />
+      <link href="css/fonts.css" rel="stylesheet" type="text/css"  media="all" />
+	  <link href="https://fonts.googleapis.com/css?family=Kristi" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
 
-<!-- 
-
-Page    : index Slider / Fluid
-Version : 1.0
-Author  : Surjith S M
-URI     : http://themeforest.net/user/surjithctly
-
- -->
-
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Mercatto Gourmet</title>
-    <!-- Meta Share -->
-    <meta property="og:title" content="Mercatto Gourmet - Comida Saudável" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="images/bg-one.jpg" />
-    <!-- CSS Files -->
-    <!-- build:css css/app.min.css -->
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Web Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Dosis|Oswald:300" rel="stylesheet">
-    <!-- Plugins -->
-    <link rel="stylesheet" href="css/icon-font.css">
-    <link rel="stylesheet" href="css/aos.css">
-    <link rel="stylesheet" href="css/slick.css">
-    <!-- Main CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- /build -->
-</head>
-
-<body>
-    <div class="animation anim-dark" data-aos="slide-effect-2">
-        <div class="wrapper animation-inner">
-            <div class="background overlay">
-                <div id="bg-slider">
-                    <div>
-                        <div class="img-holder" style="background-image: url(images/slider1.jpg);"></div>
-                    </div>
-                    <div>
-                        <div class="img-holder" style="background-image: url(images/slider2.jpg);"></div>
-                    </div>
-                    <div>
-                        <div class="img-holder" style="background-image: url(images/slider3.jpg);"></div>
-                    </div>
-                </div>
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+      <link rel="manifest" href="/site.webmanifest">
+      <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+      <meta name="msapplication-TileColor" content="#da532c">
+      <meta name="theme-color" content="#ffffff">
+	   </head>
+   <body>
+      <!-- Preloader -->
+      <div class="loader">
+         <!-- Preloader inner -->
+         <div class="loader-inner">
+            <svg width="120" height="220" viewbox="0 0 100 100" class="loading-spinner" version="1.1" xmlns="http://www.w3.org/2000/svg">
+               <circle class="spinner" cx="50" cy="50" r="21" fill="#ffffff" stroke-width="2"/>
+            </svg>
+         </div>
+         <!-- End preloader inner -->
+      </div>
+      <!-- End preloader-->
+      <!--Wrapper-->
+      <div class="wrapper">
+         <!--Hero section-->
+         <section class="hero overlay">
+            <!--Main slider-->
+            <div class="main-slider slider flexslider">
+               <ul class="slides">
+                  <li>
+                     <div class="background-img zoom">
+                        <img src="img/banner_03.jpg" alt="">
+                     </div>
+                  </li>
+                  <li>
+                     <div class="background-img zoom">
+                        <img src="img/banner_01.jpg" alt="">
+                     </div>
+                  </li>
+                  <li>
+                     <div class="background-img zoom">
+                        <img src="img/banner_02.jpg" alt="">
+                     </div>
+                  </li>
+                  <li>
+                     <div class="background-img zoom">
+                        <img src="img/banner_04.jpg" alt="">
+                     </div>
+                  </li>
+               </ul>
             </div>
-            <!-- // end .background -->
-            <div class="content-section d-flex justify-content-center align-items-center">
-                <!-- Vertical Animating Lines -->
-                <div class="v-lines">
-                    <div class="vline-1"></div>
-                    <!-- // end .vline-1 -->
-                    <div class="vline-2"></div>
-                    <!-- // end .vline-1 -->
-                    <div class="vline-3"></div>
-                    <!-- // end .vline-1 -->
-                    <div class="vline-4"></div>
-                    <!-- // end .vline-1 -->
-                </div>
-                <!-- // end .lines -->
-                <div class="container">
-                    <div class="center-content text-light align-self-center">
-                        <h1 class="display-3 sans-serif-font font-bold" data-aos="fade" data-aos-delay="1800">Mercatto Gourmet</h1>
-                        <p class="lead my-2 my-sm-4" data-aos="fade" data-aos-delay="2500">Em breve, um novo conceito em comida saudável</p>
-                        <!-- // end .lead -->
-                        <div class="countdown-wrap" data-aos="fade" data-aos-delay="3000">
-                            <!-- Countdown JS for the Event Date Starts here.
-                             TIP: You can change your event time below  -->
-                            <ul id="countdown" class="countdown" data-event-date="5 september 2018 12:00:00">
-                                <li> <span class="days">00</span>
-                                    <p class="timeRefDays">days</p>
-                                </li>
-                                <li> <span class="hours">00</span>
-                                    <p class="timeRefHours">hours</p>
-                                </li>
-                                <li> <span class="minutes">00</span>
-                                    <p class="timeRefMinutes">minutes</p>
-                                </li>
-                                <li> <span class="seconds">00</span>
-                                    <p class="timeRefSeconds">seconds</p>
-                                </li>
-                            </ul>
+            <!--End main slider-->
+            <!--Header-->
+            <header class="header default">
+               <div class=" left-part">
+                  <a class="logo scroll" href="#hero">
+                     <h2>Mercatto Gourmet</h2>
+                  </a>
+               </div>
+               <div class="right-part">
+                  <nav class="main-nav">
+                     <div class="toggle-mobile-but">
+                        <a href="#" class="mobile-but" >
+                           <div class="lines"></div>
+                        </a>
+                     </div>
+                     <ul>
+                        <li><a class="scroll" href="#wrapper">Home</a></li>
+                        <li><a class="scroll" href="#resto">O Mercatto</a></li>
+                        <li><a class="scroll" href="#menu">Menu Lanchonete</a></li>
+                        <li><a class="scroll" href="#special">Menu Viagem</a></li>
+                        <li><a class="scroll" href="#gallery">Fotos</a></li>
+                        <li><a class="scroll" href="#contact">Contato</a></li>
+                     </ul>
+                  </nav>
+               </div>
+            </header>
+            <!--End header-->
+            <!--Inner hero-->
+            <div class="inner-hero">
+               <!--Container-->
+               <div class="container hero-content">
+                  <!--Row-->
+                  <div class="row">
+                     <div class="col-sm-12 text-center">
+                        <h1 class="large">Mercatto Gourmet</h1>
+                        <p class="lead">um novo conceito em comida</p>
+						
+                     </div>
+                  </div>
+                  <!--End row-->
+               </div>
+               <!--End container-->
+            </div>
+            <!--End inner hero-->
+         </section>
+         <!--End hero section-->
+         <!--Resto section-->
+         <section id="resto" class="resto pt-120 pb-120">
+            <!--Container-->
+            <div class="container">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-sm-12 text-center mb-100">
+                     <h1 class="title">O Restaurante</h1>
+                     <p class="beige">Conheça o Mercatto Gourmet</p>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+            <!--Container-->
+            <div class="container">
+               <!--Row-->
+               <div class="row vertical-align">
+                  <div class="col-md-5 col-sm-5 ">
+                     <div class="block-img mb-10">
+                        <div class="background-img">
+                           <img src="img/store_front.jpg" alt="">
                         </div>
-                        <span class="animation anim-light" data-aos="slide-effect-btn" data-aos-delay="3500">
-                        <span class="btn btn-lg">Aguarde</span>
-                        </span>
-                    </div>
-                    <!-- // end .center-content -->
-                </div>
-                <!-- // end .container -->
+                     </div>
+                     <div class="block-img ">
+                        <div class="background-img">
+                           <img src="img/staff.jpg" alt="">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1  ">
+                     <div class="block-content">
+                        <h2 class="title-medium mb-10 pb-10">
+                           Bem vindo ao Mercatto Gourmet.
+                           <span class="dots"></span> 
+                        </h2>
+                        <h4 class="title-small">um novo conceito em comida saudável</h4>
+                        <p class="puch-right mb-40">Localizado na região central da cidade de Torrinha, no interior de São Paulo, nasce um espaço gastronômico destinado a alimentação saudável. Seus idealizadores, centrados na visão de equilíbrio, entre corpo, alma e alimentação desenvolvem um ambiente respeitando os paladares mais sofisticados e trazendo o que mais de contemporâneo para seu tempo e povoado.</p>
+                        <p class="puch-right mb-40">O Mercatto além de desenvolver suas atividades de venda alimentícias congeladas feitas de forma artesanal, foca suas atividades numa mini lanchonete onde podemos encontrar alimentos convencionais repaginados de uma forma leve e menos calórica.</p>
+                        <p class="puch-right mb-40">No espaço, você também encontrará bolos, tortas, salgados e doces produzidos artesanalmente respeitando os conceitos de saúde e com isso mantendo a maior necessidade do ser humano que é a alimentação; de forma leve e despreocupada, na certeza que estará se alimentado do que mais saudável existe na atualidade.</p>
+                        <p class="puch-right mb-40">Todos os nossos produtos passam por uma criteriosa banca revisora e após certificação é tirado da nossa mesa para a sua mesa, na certeza que estamos produzindo e vos servindo algo nutritivo, saudável, menos calórico e com um paladar que nos remete aos nossas matriarcas.</p>
+                        <p class="puch-right mb-40">No Mercatto Gourmet, você é levado a degustar não apenas um cafezinho mas, a viajar na história de nossa pequena cidade já que, muito de nossos produtos são produzidos e demudados pelos nossos agricultores. O café que voce encontra na nossa loja é plantado, cultivado e trabalhado pelos homens que movimentam boa parte de nossa economia local.</p>
+                        <p class="puch-right mb-40">Por essa e por outras razões que vocês irão descobrir ao adentrar nosso espaço, é que vos convidamos a visitar nosso Mercatto, localizado na rua Dr. Carlos de Campos, 420, centro de Torrinha.</p>
+                     </div>
+                  </div>
+               </div>
+               <!--End row-->
             </div>
-            <!-- // end .content-section -->
-            <div class="sidebar sidebar-dark d-flex flex-column justify-content-end" data-aos="slide-left" data-aos-delay="3000">
-                <div class="hamburger-menu mb-auto">
-                    <div class="hamburger">
-                        <div class="hamburger-line hamburger-line-1"></div>
-                        <!-- // end .hamburger-line -->
-                        <div class="hamburger-line hamburger-line-2"></div>
-                        <!-- // end .hamburger-line -->
-                        <div class="hamburger-line hamburger-line-3"></div>
-                        <!-- // end .hamburger-line -->
-                        <div class="hamburger-line hamburger-line-4"></div>
-                        <!-- // end .hamburger-line -->
-                    </div>
-                    <!-- // end .hamburger -->
-                </div>
-                <!-- // end .hamburger-menu -->
-                <div class="social-links">
-                    <a href="https://www.facebook.com/omercattogourmet" target="_blank"> Facebook </a>
-                    <a href="https://www.instagram.com/omercattogourmet" target="_blank"> Instagram </a>
-                </div>
+            <!--End container-->
+         </section>
+         <!--End resto section-->
+         <!--Short reservation section-->
+         <section class="short-reservation pt-200 pb-250 overlay">
+            <div class="background-img zoom" >
+               <img src="img/banner_02.jpg" alt="">
             </div>
-            <!-- // end .sidebar -->
-            <div class="fullscreen-content dark-bg" id="fscontent">
-                <div class="google-map" id="gmaps" data-lat="-22.4238244" data-lon="-48.1687629" data-maps-apikey="AIzaSyAZfpu8A5nMxEtdhPX3vjVE-8SeZlI1Eo4" data-zoom="17"></div>
+            <!--Container-->
+            <div class="container">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-sm-12 text-center front-p">
+                     <h1 class="large">venha nos visitar</h1>
+                     <p class="lead white top">segunda a sábado, 9:00 - 19:00</p>
+                     <p class="lead white top">domingo 10:00 - 21:00</p>
+                     <a href="#contact" class="but scroll">Como Chegar</a>
+                  </div>
+               </div>
+               <!--End row-->
             </div>
-            <!-- // end .fullscreen-content -->
-        </div>
-        <!-- // end .wrapper -->
-    </div>
-    <!-- // end .animation -->
-    <!-- JS Files -->
-    <!-- build:js js/app.min.js -->
-    <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/tether.min.js"></script>
-    <!-- Bootstrap JS -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- Plugins JS -->
-    <script src="js/slick.min.js"></script>
-    <script src="js/viewport.min.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/countdown.js"></script>
-    <script src="js/smoothscroll.min.js"></script>
-    <script src="js/validate.js"></script>
-    <script src="js/contact.js"></script>
-    <!-- Main JS -->
-    <script src="js/script.js"></script>
-    <!-- /build -->
-</body>
+            <!--End container-->
+         </section>
+         <!--End short reservation section-->
+         <!--Menu section-->
+         <section id="menu" class="menu pt-120 pb-120 ">
+            <!--Container-->
+            <div class="container">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-sm-12  mb-100 text-center">
+                     <h1 class="title"> Menu Lanchonete</h1>
+                     <p class="beige">Desfrute de uma comida saúdavel no local</p>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+            <!--Container-->
+            <div class="container">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-sm-12 ">
+                     <!--Tabs-->
+                     <ul class="block-tabs text-center">
+                        <li class="active">Salgados</li>
+                        <li class="">Bebidas</li>
+                        <li class="">Combos</li>
+                        <li class="">Sobremesas</li>
+                     </ul>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+            <!--Container-->
+            <div class="container">
+               <!--Row-->
+               <div class="row">
+                  <ul class="block-tab mt-40">
+                     <!--Menu list-->
+                     <li class="active block-list">
+                        <div class="col-sm-5  col-sm-offset-1 text-center">
+                           <div class="block-cat">
+                              <h2 class="mb-30">esfirras </h2>
+                           </div>
+                           <div class="block-content pb-25 mb-25">
+                              <h2 class="mb-5 ">Recheio de Frango </h2>
+                              <p>Frango cozido e desfiado.</p>
+                              <span class="block-price">R$5</span>
+                              <span class="dots"></span>
+                           </div>
+                           <div class="block-content  pb-25 mb-25">
+                              <h2 class="mb-5 ">Recheio de Brócolis e Bacon</h2>
+                              <p>Mix de bócolis cozido e bacon frito.</p>
+                              <span class="block-price ">R$5</span>
+                              <span class="dots"></span>
+                           </div>
+                           <div class="block-content">
+                              <h2 class="mb-5 ">Recheio de Ricota </h2>
+                              <p>Ricota fresca e temperada.</p>
+                              <span class="block-price ">R$5</span>
+                           </div>
+                        </div>
+                        <div class="col-sm-5 text-center ">
+                           <div class="block-cat">
+                              <h2 class="mb-30">tranças  </h2>
+                           </div>
+                           <div class="block-content pb-25 mb-25">
+                              <h2 class="mb-5 ">Recheio de Frango </h2>
+                              <p>Frango cozido e desfiado.</p>
+                              <span class="block-price">R$5</span>
+                              <span class="dots"></span>
+                           </div>
+                           <div class="block-content  pb-25 mb-25">
+                              <h2 class="mb-5 ">Recheio de Brócolis e Bacon</h2>
+                              <p>Mix de bócolis cozido e bacon frito.</p>
+                              <span class="block-price ">R$5</span>
+                              <span class="dots"></span>
+                           </div>
+                           <div class="block-content">
+                              <h2 class="mb-5 ">Recheio de Ricota </h2>
+                              <p>Ricota fresca e temperada.</p>
+                              <span class="block-price ">R$5</span>
+                           </div>
+                        </div>
+                     </li>
+                     <!--Menu list-->
+                     <li class=" block-list">
+                        <div class="col-sm-5  col-sm-offset-1 text-center">
+                           <div class="block-cat">
+                              <h2 class="mb-30">suco natural </h2>
+                           </div>
+                           <div class="block-content pb-25 mb-25">
+                              <h2 class="mb-5 ">Copo de Laranja </h2>
+                              <p>300ml de laranja natural feito na hora</p>
+                              <span class="block-price">R$4</span>
+                              <span class="dots"></span>
+                           </div>
+                           <div class="block-content  pb-25 mb-25">
+                              <h2 class="mb-5 ">Jarra laranja </h2>
+                              <p>800ml de laranja natural feito na hora</p>
+                              <span class="block-price">R$8</span>
+                              <span class="dots"></span>
+                           </div>
+                        </div>
+                        <div class="col-sm-5 text-center ">
+                           <div class="block-cat">
+                              <h2 class="mb-30">água </h2>
+                           </div>
+                           <div class="block-content  pb-25 mb-25">
+                              <h2 class="mb-5 ">Água sem gás </h2>
+                              <p>Saudável e refrescante.</p>
+                              <span class="block-price ">R$2</span>
+                              <span class="dots"></span>
+                           </div>
+                           <div class="block-content  pb-25 mb-25">
+                              <h2 class="mb-5 ">Água com gás </h2>
+                              <p>Marca Schin.</p>
+                              <span class="block-price ">R$3</span>
+                              <span class="dots"></span>
+                           </div>
+                        </div>
+                     </li>
+                     <!--Menu list-->
+                     <li class=" block-list">
+                        <div class="col-sm-5  col-sm-offset-1 text-center">
+                           <div class="block-cat">
+                              <h2 class="mb-30">Suco + Salgado </h2>
+                           </div>
+                           <div class="block-content pb-25 mb-25">
+                              <h2 class="mb-5 ">Copo de Suco </h2>
+                              <p>Copo de 300ml acompanhado de um salgado.</p>
+                              <span class="block-price">R$8</span>
+                              <span class="dots"></span>
+                           </div>
+                           <div class="block-content  pb-25 mb-25">
+                              <h2 class="mb-5 ">Jarra de Suco </h2>
+                              <p>Jarra de 800ml acompanhado de um salgado.</p>
+                              <span class="block-price">R$15</span>
+                              <span class="dots"></span>
+                           </div>
+                        </div>
+                     </li>
+                     <!--Menu list-->
+                     <li class="block-list">
+                        <div class="col-sm-5  col-sm-offset-1 text-center">
+                           <div class="block-cat">
+                              <h2 class="mb-30">cookies </h2>
+                           </div>
+                           <div class="block-content pb-25 mb-25">
+                              <h2 class="mb-5 ">Sabores variados </h2>
+                              <!--<p>Strawberries, Orange and Pineapple Juices, Coconut and Banana.</p>-->
+                              <span class="block-price">R$3</span>
+                              <span class="dots"></span>
+                           </div>
+                        </div>
+                        <div class="col-sm-5 text-center ">
+                           <div class="block-cat">
+                              <h2 class="mb-30">barra de ceral  </h2>
+                           </div>
+                           <div class="block-content  pb-25 mb-25">
+                              <h2 class="mb-5 ">Sabores variados </h2>
+                              <!--<p>Double Espresso, Extra Steamed Milk.</p>-->
+                              <span class="block-price ">R$2,50</span>
+                              <span class="dots"></span>
+                           </div>
+                        </div>
+                     </li>
+                  </ul>
+                  <!--End tabs-->
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+         </section>
+         <!--End menu section-->
+         <!--Review section-->
+         <!--<section class="review pt-120 pb-120 overlay">-->
+            <!--<div class="background-img zoom" >-->
+               <!--<img src="img/6.jpg" alt="">-->
+            <!--</div>-->
+            <!--&lt;!&ndash;Container&ndash;&gt;-->
+            <!--<div class="container">-->
+               <!--&lt;!&ndash;Row&ndash;&gt;-->
+               <!--<div class="row">-->
+                  <!--<div class="col-sm-12 text-center front-p">-->
+                     <!--<div class="review-slider flexslider">-->
+                        <!--<ul class="slides">-->
+                           <!--<li>-->
+                              <!--<div class="block-review">-->
+                                 <!--<h2 class="white h2-s-1 mb-5">Joselaine</h2>-->
+                                 <!--<p>Adoramos o bolo de cenoura com cacau. </p>-->
+                                 <!--<ul class="block-star mt-10">-->
+                                    <!--<li><i class="icon-star"></i></li>-->
+                                    <!--<li><i class="icon-star"></i></li>-->
+                                    <!--<li><i class="icon-star"></i></li>-->
+                                    <!--<li><i class="icon-star"></i></li>-->
+                                    <!--<li><i class="icon-star-empty"></i></li>-->
+                                 <!--</ul>-->
+                              <!--</div>-->
+                           <!--</li>-->
+                           <!--<li>-->
+                              <!--<div class="block-review">-->
+                                 <!--<h2 class="white h2-s-1 mb-5">The telegraph</h2>-->
+                                 <!--<p>The food is plentiful and delicious, it is all part of the "old world" sort of dining experience. </p>-->
+                                 <!--<ul class="block-star mt-10">-->
+                                    <!--<li><i class="icon-star"></i></li>-->
+                                    <!--<li><i class="icon-star"></i></li>-->
+                                    <!--<li><i class="icon-star"></i></li>-->
+                                    <!--<li><i class="icon-star-empty"></i></li>-->
+                                    <!--<li><i class="icon-star-empty"></i></li>-->
+                                 <!--</ul>-->
+                              <!--</div>-->
+                           <!--</li>-->
+                           <!--<li>-->
+                              <!--<div class="block-review">-->
+                                 <!--<h2 class="white h2-s-1 mb-5">Magazin restaurant</h2>-->
+                                 <!--<p>Huge portions, great food, fast service. This location obviously is always packed due to being in Times Sq. </p>-->
+                                 <!--<ul class="block-star mt-10">-->
+                                    <!--<li><i class="icon-star"></i></li>-->
+                                    <!--<li><i class="icon-star"></i></li>-->
+                                    <!--<li><i class="icon-star"></i></li>-->
+                                    <!--<li><i class="icon-star"></i></li>-->
+                                    <!--<li><i class="icon-star-half"></i></li>-->
+                                 <!--</ul>-->
+                              <!--</div>-->
+                           <!--</li>-->
+                        <!--</ul>-->
+                     <!--</div>-->
+                  <!--</div>-->
+               <!--</div>-->
+               <!--&lt;!&ndash;End row&ndash;&gt;-->
+            <!--</div>-->
+            <!--&lt;!&ndash;End container&ndash;&gt;-->
+         <!--</section>-->
+         <!--End reviews section-->
+         <!--Special section-->
+         <section  id="special" class="special pt-120 pb-120">
+            <!--Container-->
+            <div class="container">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-sm-12 text-center mb-100">
+                     <h1 class="title">Menu para Viagem</h1>
+                     <p class="beige">Experimente na sua casa, a qualquer hora</p>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+            <!--Container-->
+            <div class=" container">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-md-4  pd-0 block-special">
+                     <div class="block-img special">
+                        <div class="background-img">
+                           <img src="img/quiche.jpg" alt="">
+                        </div>
+                     </div>
+                     <div class="block-content special sp-3">
+                        <h2 class="mb-5  h2-s-1">Quiche  </h2>
+                        <p>Palmito. </p>
+                        <p>Alho Poró. </p>
+                        <span class="block-price special">R$5</span>
+                        <span class="block-border "></span>
+                     </div>
+                  </div>
+                  <div class="col-md-4  pd-0 block-special active ">
+                     <div class="block-img special">
+                        <div class="background-img">
+                           <img src="img/mini_pizza.jpg" alt="">
+                        </div>
+                     </div>
+                     <div class="block-content special sp-2">
+                        <h2 class="mb-5  h2-s-1">Massa Mini Pizza  </h2>
+                        <p>4 unidades. </p>
+                        <span class="block-price special">R$8</span>
+                     </div>
+                  </div>
+                  <div class="col-md-4  pd-0 block-special">
+                     <div class="block-img special">
+                        <div class="background-img">
+                           <img src="img/pacakes.jpg" alt="">
+                        </div>
+                     </div>
+                     <div class="block-content special sp-3">
+                        <h2 class="mb-5  h2-s-1">Panqueca  </h2>
+                        <p>Carne. </p>
+                        <p>Frango. </p>
+                        <span class="block-price special">R$10</span>
+                     </div>
+                  </div>
 
+                  <div class="col-md-4  pd-0 block-special">
+                     <div class="block-img special">
+                        <div class="background-img">
+                           <img src="img/gnocchi.jpg" alt="">
+                        </div>
+                     </div>
+                     <div class="block-content special sp-3">
+                        <h2 class="mb-5  h2-s-1">Nhoque  </h2>
+                        <p>Batata Doce. </p>
+                        <span class="block-price special">R$10</span>
+                     </div>
+                  </div>
+                  <div class="col-md-4  pd-0 block-special active ">
+                     <div class="block-img special">
+                        <div class="background-img">
+                           <img src="img/brown_rice.jpg" alt="">
+                        </div>
+                     </div>
+                     <div class="block-content special sp-2">
+                        <h2 class="mb-5  h2-s-1">Arroz Integral  </h2>
+                        <p>Brócolis, carne e legumes. </p>
+                        <span class="block-price special">R$10</span>
+                     </div>
+                  </div>
+                  <div class="col-md-4  pd-0 block-special">
+                     <div class="block-img special">
+                        <div class="background-img">
+                           <img src="img/sweet_potato.jpg" alt="">
+                        </div>
+                     </div>
+                     <div class="block-content special sp-3">
+                        <h2 class="mb-5  h2-s-1">Batata Doce  </h2>
+                        <p>Com Carne. </p>
+                        <p>Com Frango. </p>
+                        <span class="block-price special">R$10</span>
+                     </div>
+                  </div>
+
+                  <div class="col-md-4  pd-0 block-special">
+                     <div class="block-img special">
+                        <div class="background-img">
+                           <img src="img/manioc.jpg" alt="">
+                        </div>
+                     </div>
+                     <div class="block-content special sp-3">
+                        <h2 class="mb-5  h2-s-1">Mandioca  </h2>
+                        <p>Com Carne. </p>
+                        <p>Com Carne Seca. </p>
+                        <span class="block-price special">R$10 - R$12</span>
+                     </div>
+                  </div>
+                  <div class="col-md-4  pd-0 block-special active ">
+                     <div class="block-img special">
+                        <div class="background-img">
+                           <img src="img/lasagna.jpg" alt="">
+                        </div>
+                     </div>
+                     <div class="block-content special sp-2">
+                        <h2 class="mb-5  h2-s-1">Lasanha  </h2>
+                        <p>De Cupim. </p>
+                        <p>De Abobrinha. </p>
+                        <p>De Berinjela. </p>
+                        <span class="block-price special">R$12 - R$19</span>
+                     </div>
+                  </div>
+                  <div class="col-md-4  pd-0 block-special">
+                     <div class="block-img special">
+                        <div class="background-img">
+                           <img src="img/shepperd_pie.jpg" alt="">
+                        </div>
+                     </div>
+                     <div class="block-content special sp-3">
+                        <h2 class="mb-5  h2-s-1">Escondidinho Low Carb  </h2>
+                        <p>Frango com cabotiá. </p>
+                        <p>Carne seca com purê de banana. </p>
+                        <span class="block-price special">R$16</span>
+                     </div>
+                  </div>
+
+                  <div class="col-md-4  pd-0 block-special">
+                     <div class="block-img special">
+                        <div class="background-img">
+                           <img src="img/pie.jpg" alt="">
+                        </div>
+                     </div>
+                     <div class="block-content special sp-3">
+                        <h2 class="mb-5  h2-s-1">Torta  </h2>
+                        <p>Abobrinha com Palmito. </p>
+                        <p>Frango com Brócolis. </p>
+                        <span class="block-price special">R$18</span>
+                     </div>
+                  </div>
+                  <div class="col-md-4  pd-0 block-special active ">
+                     <div class="block-img special">
+                        <div class="background-img">
+                           <img src="img/medallion.jpg" alt="">
+                        </div>
+                     </div>
+                     <div class="block-content special sp-2">
+                        <h2 class="mb-5  h2-s-1">Medalhão  </h2>
+                        <p>Com gorgonzola. </p>
+                        <span class="block-price special">R$19</span>
+                     </div>
+                  </div>
+                  <div class="col-md-4  pd-0 block-special">
+                     <div class="block-img special">
+                        <div class="background-img">
+                           <img src="img/cake.jpg" alt="">
+                        </div>
+                     </div>
+                     <div class="block-content special sp-3">
+                        <h2 class="mb-5  h2-s-1">Bolo  </h2>
+                        <p>Chocolate com cacau. </p>
+                        <p>Cenoura com cacau. </p>
+                        <p>Banana com aveia. </p>
+                        <p>Fruta com nozes. </p>
+                        <span class="block-price special">R$15 - R$18</span>
+                     </div>
+                  </div>
+               </div>
+
+
+               <!--End row-->
+            </div>
+            <!--End container-->
+         </section>
+         <!--End special section-->
+         <!--Gallery section-->
+         <section id="gallery" class="gallery overlay">
+            <!-- As a general rule, include a heading (h1-h6) as a child of each section and article element for screen readers purposes-->
+            <h2 class="indent">Gallery</h2>
+            <!--Gallery slider-->
+            <div class="gallery-slider slider flexslider">
+               <ul class="slides">
+                  <li>
+                     <div class="background-img zoom">
+                        <img src="img/prod_cake_02.jpg" alt="">
+                     </div>
+                  </li>
+                  <li>
+                     <div class="background-img zoom">
+                        <img src="img/prod_coffee.jpg" alt="">
+                     </div>
+                  </li>
+                  <li>
+                     <div class="background-img zoom">
+                        <img src="img/prod_cake.jpg" alt="">
+                     </div>
+                  </li>
+                  <li>
+                     <div class="background-img zoom">
+                        <img src="img/bags.jpg" alt="">
+                     </div>
+                  </li>
+                  <li>
+                     <div class="background-img zoom">
+                        <img src="img/prod_quiche.jpg" alt="">
+                     </div>
+                  </li>
+               </ul>
+            </div>
+            <!--End gallery slider-->
+         </section>
+         <!--End gallery section-->
+         <!--Contact section-->
+         <section id="contact" class="contact pt-250 pb-250">
+            <!-- As a general rule, include a heading (h1-h6) as a child of each section and article element for screen readers purposes-->
+            <h2 class="indent">Como nos Encontrar</h2>
+            <div class="block-map ">
+               <div id="map" class="map"></div>
+            </div>
+            <!--Container-->
+            <div class="container block-contact">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-md-5 col-md-offset-7 col-sm-5 col-sm-offset-7">
+                     <ul class="block-social mb-30">
+                        <li><a href="https://www.facebook.com/omercattogourmet/" target="_blank"><i class="icon-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/omercattogourmet/" target="_blank"><i class="icon-instagram"></i></a></li>
+                     </ul>
+                     <div class="block-info mb-30">
+                        <p>
+                           <strong>Segunda a Sábado 9:00 - 19:00</strong><br>
+                           <strong>Domingo 10:00 - 21:00</strong><br>
+                           Venha conhecer nosso estabelecimento e experimentar nossa gastronomia exclusiva e saudável
+                           <br><br>
+                           Rua Dr. Carlos de Campos, 420<br>
+                           Centro, Torrinha/SP<br><br>
+                           Telefone: (14) 3656-3500 <br>
+                           Email : <span><a href="https://m.me/omercattogourmet" target="_blank">contato@omercattogourmet.com.br</a></span>
+                        </p>
+                     </div>
+                  </div>
+                  <!--<div class="col-md-5 col-md-offset-7 col-sm-5 col-sm-offset-7">-->
+                     <!--<footer class="footer-short mt-40">-->
+                        <!--<p>	&copy; 2018 all rights reserved - a product of mutationthemes.</p>-->
+                     <!--</footer>-->
+                  <!--</div>-->
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+         </section>
+         <!--End contact section-->
+      </div>
+      <!-- End wrapper-->
+      <!--Javascript-->	
+      <script src="js/jquery-1.12.4.min.js" type="text/javascript"></script>
+      <script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+      <script src="js/smooth-scroll.js" type="text/javascript"></script>
+	  <script src="js/jquery.validate.min.js" type="text/javascript"></script>
+	  <script src="js/placeholders.min.js" type="text/javascript"></script>
+      <script src="js/script.js" type="text/javascript"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkep1vhRKeMP_HDQMnU1IQA9kWKyMgIMY&callback=initializeMap"></script>
+      <!-- Google analytics -->
+      <!-- End google analytics -->
+   </body>
 </html>
+
